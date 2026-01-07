@@ -47,4 +47,25 @@ todo-cli/
 ```bash
 git clone https://github.com/moizr1732/todo-cli.git
 cd todo-cli
+```
+How the App Works
 
+1.Tasks are stored as Python dictionaries
+2.All tasks and user points are saved in a JSON file
+3.The app runs in a loop until the user chooses to exit
+4.Each completed task awards 10 points to encourage productivity
+
+Use of Claude Code
+
+:Claude Code was used as an AI coding assistant to:
+:Design the overall program structure
+:Generate initial function templates
+:Suggest improvements for JSON-based persistence
+:Help debug runtime errors and refactor logic
+
+Bonus Features Implemented
+
+File-based persistence using JSON
+Task priority and description
+Gamification through a points system
+Clean menu-driven user experience
