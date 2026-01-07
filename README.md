@@ -51,50 +51,42 @@ Copy code
 ```bash
 git clone https://github.com/moizr1732/todo-cli.git
 cd todo-cli
+
 2️⃣ Run the Application
+
 bash
 Copy code
 python main.py
+```
 🧠 How the App Works
+
 Tasks are stored as Python dictionaries
-
 All tasks and user points are saved in a JSON file
-
 The app runs in a loop until the user chooses to exit
-
 Each completed task awards 10 points to encourage productivity
 
 🤖 Use of Claude Code
+
 Claude Code was used as an AI coding assistant to:
-
 Design the overall program structure
-
 Generate initial function templates
-
 Suggest improvements for JSON-based persistence
-
 Help debug runtime errors and refactor logic
-
 All generated code was reviewed, understood, tested, and customized before final submission.
 
 📌 Bonus Features Implemented
+
 File-based persistence using JSON
-
 Task priority and description
-
 Gamification through a points system
-
 Clean menu-driven user experience
 
 🔮 Possible Future Improvements
+
 Filter tasks (Completed / Pending)
-
 Search tasks by keyword
-
 Sort tasks by priority or due date
-
 Colored CLI output
-
 Convert into an installable Python CLI tool
 
 👤 Author
@@ -103,10 +95,6 @@ GitHub: https://github.com/moizr1732
 
 📄 License
 This project is licensed under the MIT License.
-
-yaml
-Copy code
-
 ---
 
 ## ✅ What to Do Now
@@ -120,3 +108,4 @@ Copy code
 git add README.md
 git commit -m "Improve README documentation"
 git push
+```
